@@ -1,0 +1,9 @@
+service: ydemo-demo
+
+provider:
+  name: aws
+
+functions:
+  entrypoint:
+    runtime: python3.6
+    handler: mypackage.mymodule.entrypoint
